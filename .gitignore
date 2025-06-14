@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 环境变量（重要！）
+.env
+.env.local
+.env.*.local
+
+# 数据文件
+journeys.json
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
