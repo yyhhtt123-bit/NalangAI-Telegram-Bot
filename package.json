@@ -1,0 +1,24 @@
+{
+  "name": "nalang-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot powered by NalangAI with multiple interaction modes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["telegram", "bot", "nalang", "ai"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
